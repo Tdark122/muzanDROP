@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>muzanDROP</title>
+  <section class="drop">
+    muzan<span class="dope">DROP</span>
+  </section>
+  <!-- HTML -->
+<button class="hamburger">
+  <div></div>
+  <div></div>
+  <div></div>
+</button>
+<nav class="menu">
+  <ul>
+    <hr>
+    
+    <li><a href="index.html">HOME</a></li>
+    
+    <hr>
+    
+    <li><a href="https://wa.me/+2347037392295">SUPPORT</a></li>
+    <hr>
+  </ul>
+</nav>
+
+</head>
+<style>
+  .drop {
+      background-color:black;
+      color:white;
+      padding-top:25px;
+      padding-bottom:10px;
+      font-family:arial;
+      padding-left:20px;
+      margin-top:0px !important;
+      margin-left:0px !important;
+      margin-right:0px !important;
+      font-size:40px;
+      display:block;
+      margin-bottom:0px;
+  }
+   body{
+     background-color:black;
+   }
+   .dope{
+     color:red;
+   }
+   /* CSS */
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  left:px;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  background: white;
+  margin:6px 0;
+  transition: 0.4s;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top:0px ;
+  right: px;
+  background: #333333;
+  padding-top:130px;
+  padding-bottom:450px;
+  padding-right:80px;
+  padding-left:30px;
+  border-radius: px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  text-decoration:none;
+  color: white;
+  margin-left:0px;
+  margin-bottom:40px;
+  background-color:#333333;
+}
+
+/* Toggle class on click */
+.hamburger.active div:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+.hamburger.active div:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active div:nth-child(3) {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.menu.active {
+  display: block;
+}
+.crypto{
+  color:white;
+  margin-left:30px;
+}
+.scroll{
+  font-size:20px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  display: inline-block;
+}
+.six{
+  color:white;
+  text-align: center;
+  margin-top:30px;
+  border:;
+  
+}
+.airdrop{
+  color: white;
+  border:1px solid;
+  text-align:center;
+  border-radius:30px;
+  padding:20px;
+  background-color:#333333;
+}
+.pool{
+  color:green;
+}
+a  {
+  border:1px;
+  background-color:green;
+  color:white;
+  text-decoration:none!important;
+  padding:10px;
+  border-radius:20px;
+}
+button{
+  background-color:green;
+  border:none;
+  text-decoration:none!important;
+}
+</style>
+
+<body>
+  <script>
+    // JS (same as before)
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  menu.classList.toggle('active');
+});
+
+  </script>
+    
+  <section class="crypto">
+    <h2>Your Gateway to
+    <br>
+     Free Crypto
+    </h2>
+    <p>
+      <span class="arrow-down"></span>
+     <span class="scroll">scroll down to discover  new airdrops </span>
+    </p>
+  </section>
+  <section class="airdrop">
+    <h1 class="six">
+      SIXR CRICKET AIRDROP
+    </h1>
+    <p>
+      <strong>SIXR</strong>
+    </p>
+    <p class="pool">
+      AIRDROP POOL
+    </p>
+    <P>$100,000</P>
+    <span class ="link">
+    
+    <a href="https://firstinnings.sixrcricket.com?r=241d969a3488">START AIRDROP</a>
+    
+    </span>
+  </section>
+  
+</body>
+
+</html>
